@@ -9,3 +9,5 @@
 		- Lista de reproducción WPF
 			- https://www.youtube.com/watch?v=o5ObiLgBjVI&list=PLJMC9VQdDCgJpgLzxhkhnt0hW_VRg3E5b
 		
+			- https://www.youtube.com/watch?v=CLjp1Ly8JhU&list=PLJMC9VQdDCgJpgLzxhkhnt0hW_VRg3E5b&index=9
+				- Añadir Borde a la ventana.

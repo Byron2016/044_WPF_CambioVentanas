@@ -5,8 +5,42 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CambioVentanas"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Intercambio Ventanas con Estilo" 
+        Height="800" 
+        Width="800"
+        AllowsTransparency="True"
+        Background="Transparent"
+        ResizeMode="NoResize"
+        WindowStyle="None">
+    <Border Margin="10" >
+        <Border.Effect>
+            <DropShadowEffect 
+                BlurRadius="10"
+                Direction="270"
+                ShadowDepth="3"
+                Color="Aquamarine"
+                />
+        </Border.Effect>
+        <Grid>
+            <DockPanel
+                Name="titleBar"
+                Height="Auto"
+                Background="Beige" >
+                <TextBlock 
+                    Margin="10,0"
+                    FontFamily="Neitherly"
+                    FontSize="20"
+                    Foreground="Red"
+                    Text="Text 1"
+                    DockPanel.Dock="Left"/>
 
-    </Grid>
+            </DockPanel>
+            <Grid>
+                <TextBlock 
+                    Text="Dentro Grid"
+                    Foreground="Green"/>
+            </Grid>
+        </Grid>
+    </Border>
+    
 </Window>
