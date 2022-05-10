@@ -39,9 +39,6 @@
                         HorizontalAlignment="Right" 
                         Orientation="Horizontal">
                         <Button 
-                            Width="16"
-                            Height="16"
-                            Margin="5"
                             x:Name="ButtonMinimize"
                             Click="ButtonMinimizeClick"
                             MouseEnter="ButtonMinimizeMouseEnter">
@@ -50,9 +47,6 @@
                             </Button.OpacityMask>
                         </Button>
                         <Button 
-                            Width="16"
-                            Height="16"
-                            Margin="5"
                             x:Name="ButtonExit"
                             Click="ButtomExit"
                             MouseEnter="ButtonExitMouseEnter">
