@@ -11,3 +11,4 @@
 		
 			- https://www.youtube.com/watch?v=CLjp1Ly8JhU&list=PLJMC9VQdDCgJpgLzxhkhnt0hW_VRg3E5b&index=9
 				- Añadir Borde a la ventana.
+				- Añadir movilidad a la ventana.

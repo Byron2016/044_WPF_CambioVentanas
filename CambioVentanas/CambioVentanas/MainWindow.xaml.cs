@@ -23,6 +23,7 @@ namespace CambioVentanas
         public MainWindow()
         {
             InitializeComponent();
+            titleBar.MouseLeftButtonDown += (o, e) => DragMove();
         }
     }
 }

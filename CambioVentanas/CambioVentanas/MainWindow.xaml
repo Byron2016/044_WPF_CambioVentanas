@@ -35,7 +35,8 @@
                     DockPanel.Dock="Left"/>
 
             </DockPanel>
-            <Grid>
+            <Grid 
+                Margin="30">
                 <TextBlock 
                     Text="Dentro Grid"
                     Foreground="Green"/>
