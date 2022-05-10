@@ -31,7 +31,7 @@
                     <TextBlock 
                         Margin="10,0"
                         VerticalAlignment="Center"
-                        FontFamily="Neitherly"
+                        FontFamily="{StaticResource Neitherly}"
                         FontSize="20"
                         Foreground="Red"
                         Text="Text 1"/>
@@ -58,9 +58,33 @@
                 </DockPanel>
                 <Grid 
                     Margin="30">
-                    <TextBlock 
-                        Text="Dentro Grid"
-                        Foreground="Green"/>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50" />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid
+                        Grid.Row="1">
+                        
+                        <StackPanel>
+                            <TextBlock
+                                Text="Letra tipo Gotham"
+                                FontFamily="{StaticResource Gotham}"
+                                FontSize="20"
+                                Foreground="Green"/>
+                            <TextBlock
+                                Text="Letra tipo Neitherly"
+                                FontFamily="{StaticResource Neitherly}"
+                                FontSize="20"
+                                Foreground="Green"/>
+                            <TextBlock
+                                Text="Letra tipo NeitherlyScript"
+                                FontFamily="{StaticResource NeitherlyScript}"
+                                FontSize="20"
+                                Foreground="Green"/>
+                        </StackPanel>
+                    </Grid>
                 </Grid>
             </DockPanel>
         </Grid>

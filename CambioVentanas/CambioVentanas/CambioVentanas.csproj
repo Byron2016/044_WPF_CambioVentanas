@@ -8,6 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\fonts\HomepageBaukasten-Book.ttf" />
+    <None Remove="Assets\fonts\NeitherlyDemoLight.ttf" />
+    <None Remove="Assets\fonts\NeitherlyDemoScript.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\fonts\HomepageBaukasten-Book.ttf" />
+    <Resource Include="Assets\fonts\NeitherlyDemoLight.ttf" />
+    <Resource Include="Assets\fonts\NeitherlyDemoScript.ttf" />
     <Resource Include="Assets\images\exit.png" />
     <Resource Include="Assets\images\minimize.png" />
   </ItemGroup>
