@@ -25,5 +25,25 @@ namespace CambioVentanas
             InitializeComponent();
             titleBar.MouseLeftButtonDown += (o, e) => DragMove();
         }
+
+        private void ButtonMinimizeClick(object sender, RoutedEventArgs e)
+        {
+            WindowState = WindowState.Minimized;
+        }
+
+        private void ButtomExit(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void ButtonMinimizeMouseEnter(object sender, MouseEventArgs e)
+        {
+            ButtonMinimize.Background = new SolidColorBrush(Colors.DarkGreen);
+        }
+
+        private void ButtonExitMouseEnter(object sender, MouseEventArgs e)
+        {
+            ButtonExit.Background = new SolidColorBrush(Colors.Red);
+        }
     }
 }

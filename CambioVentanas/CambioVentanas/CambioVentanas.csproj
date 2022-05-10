@@ -7,4 +7,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Resource Include="Assets\images\exit.png" />
+    <Resource Include="Assets\images\minimize.png" />
+  </ItemGroup>
+
 </Project>

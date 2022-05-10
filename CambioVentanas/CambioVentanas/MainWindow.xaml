@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:CambioVentanas"
         mc:Ignorable="d"
         Title="Intercambio Ventanas con Estilo" 
-        Height="800" 
+        Height="600" 
         Width="800"
         AllowsTransparency="True"
         Background="Transparent"
@@ -21,27 +21,55 @@
                 Color="Aquamarine"
                 />
         </Border.Effect>
-        <Grid>
-            <DockPanel
-                Name="titleBar"
-                Height="Auto"
-                Background="Beige" >
-                <TextBlock 
-                    Margin="10,0"
-                    FontFamily="Neitherly"
-                    FontSize="20"
-                    Foreground="Red"
-                    Text="Text 1"
-                    DockPanel.Dock="Left"/>
-
+        <Grid Background="Black">
+            <DockPanel>
+                <DockPanel
+                    Name="titleBar"
+                    Height="Auto"
+                    Background="Beige" 
+                    DockPanel.Dock="Top">
+                    <TextBlock 
+                        Margin="10,0"
+                        VerticalAlignment="Center"
+                        FontFamily="Neitherly"
+                        FontSize="20"
+                        Foreground="Red"
+                        Text="Text 1"/>
+                    <StackPanel 
+                        HorizontalAlignment="Right" 
+                        Orientation="Horizontal">
+                        <Button 
+                            Width="16"
+                            Height="16"
+                            Margin="5"
+                            x:Name="ButtonMinimize"
+                            Click="ButtonMinimizeClick"
+                            MouseEnter="ButtonMinimizeMouseEnter">
+                            <Button.OpacityMask>
+                                <ImageBrush ImageSource="/Assets/images/minimize.png" />
+                            </Button.OpacityMask>
+                        </Button>
+                        <Button 
+                            Width="16"
+                            Height="16"
+                            Margin="5"
+                            x:Name="ButtonExit"
+                            Click="ButtomExit"
+                            MouseEnter="ButtonExitMouseEnter">
+                            <Button.OpacityMask>
+                                <ImageBrush ImageSource="/Assets/images/exit.png" />
+                            </Button.OpacityMask>
+                        </Button>
+                    </StackPanel>
+                </DockPanel>
+                <Grid 
+                    Margin="30">
+                    <TextBlock 
+                        Text="Dentro Grid"
+                        Foreground="Green"/>
+                </Grid>
             </DockPanel>
-            <Grid 
-                Margin="30">
-                <TextBlock 
-                    Text="Dentro Grid"
-                    Foreground="Green"/>
-            </Grid>
         </Grid>
     </Border>
-    
+
 </Window>

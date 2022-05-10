@@ -12,3 +12,7 @@
 			- https://www.youtube.com/watch?v=CLjp1Ly8JhU&list=PLJMC9VQdDCgJpgLzxhkhnt0hW_VRg3E5b&index=9
 				- Añadir Borde a la ventana.
 				- Añadir movilidad a la ventana.
+				- Añadir botones minimizar y cerrar (parte 1)
+				
+			- https://www.youtube.com/watch?v=KqxUPF9nA0w&list=PLJMC9VQdDCgJpgLzxhkhnt0hW_VRg3E5b&index=10
+				- Añadir botones minimizar y cerrar (parte 2)
