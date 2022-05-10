@@ -21,7 +21,7 @@
                 Color="Aquamarine"
                 />
         </Border.Effect>
-        <Grid Background="Black">
+        <Grid Background="{StaticResource BackgroundColorWindow1}">
             <DockPanel>
                 <DockPanel
                     Name="titleBar"
@@ -65,6 +65,7 @@
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
                     <Grid
+                        Background="{StaticResource BackgroundColorMedioAmarillo}"
                         Grid.Row="1">
                         
                         <StackPanel>

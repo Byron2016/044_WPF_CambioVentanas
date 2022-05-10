@@ -20,3 +20,5 @@
 			- https://www.youtube.com/watch?v=M0AAwqP60Ow&list=PLJMC9VQdDCgJpgLzxhkhnt0hW_VRg3E5b&index=9
 				- Agregar ResourceDictionary
 					- Definir estilo de los botones
+					- Agregar letras
+					- Definir colores
